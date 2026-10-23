@@ -63,17 +63,37 @@ npx -y serve .
 
 ---
 
-## 🌐 Deploying to GitHub Pages (Free)
+## ⚡ Hosting with Cloudflare Pages (Free, Fast & Automated)
+
+Cloudflare Pages connects directly to your GitHub repository and automatically deploys your portfolio globally on Cloudflare's edge network every time you push:
+
+1. **Sign in to Cloudflare**:
+   - Go to [dash.cloudflare.com](https://dash.cloudflare.com/) (create a free account if you don't have one).
+2. **Create a Pages Project**:
+   - In the left sidebar, click **Compute (Workers & Pages)** > **Create** > **Pages** > **Connect to Git**.
+3. **Select Your GitHub Repository**:
+   - Authorize Cloudflare to access your GitHub account.
+   - Choose `naveen-engineering-portfolio`.
+4. **Configure Build Settings**:
+   - **Project name**: `naveen-kumar-portfolio` (or your choice)
+   - **Production branch**: `main`
+   - **Framework preset**: `None`
+   - **Build command**: *(leave completely blank)*
+   - **Build output directory**: `/` (or leave empty)
+5. **Deploy**:
+   - Click **Save and Deploy**.
+   - Your portfolio will be live in under 30 seconds at:
+     `https://naveen-kumar-portfolio.pages.dev`
+   - Every future `git push` to `main` will automatically trigger a new deployment!
+
+---
+
+## 🌐 Alternative: Deploying to GitHub Pages (Free)
 
 Deploying this portfolio directly to GitHub Pages takes under 2 minutes:
 
 1. **Commit and push** all files to your GitHub repository:
    ```bash
-   git init
-   git add .
-   git commit -m "feat: complete engineering portfolio for Naveen Kumar P"
-   git branch -M main
-   git remote add origin https://github.com/Naeen206/naveen-engineering-portfolio.git
    git push -u origin main
    ```
 2. Navigate to your repository on [GitHub](https://github.com/Naeen206/naveen-engineering-portfolio).

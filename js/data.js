@@ -14,8 +14,8 @@ const PORTFOLIO_DATA = {
     location: "Chennai, Tamil Nadu, India",
     email: "naveenkumar25102006@gmail.com",
     github: "https://github.com/Naeen206",
-    linkedin: "https://www.linkedin.com/in/n\u1d00\u1d20\u1d07\u1d07\u0274-k\u1d1c\u1d0d\u1d00\u0280-5120a9373", // Updated with provided profile
-    linkedinIsPlaceholder: false, // Set to true if a placeholder badge is needed
+    linkedin: "https://www.linkedin.com/in/naveen2510",
+    linkedinIsPlaceholder: false,
     careerInterests: [
       "Embedded Systems",
       "Internet of Things (IoT)",

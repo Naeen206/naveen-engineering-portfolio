@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveen Kumar P | Electronics and Communication Engineering Student</title>
+  
+  <!-- SEO & Professional Metadata -->
+  <meta name="description" content="Engineering portfolio of Naveen Kumar P, an Electronics and Communication Engineering student at SIMATS Engineering specializing in Embedded Systems, IoT, Electronics, VLSI, and Automotive Electronics. Seeking internship and graduate opportunities.">
+  <meta name="keywords" content="Naveen Kumar P, Embedded Systems, IoT, ECE Student, SIMATS Engineering, HL Mando, Automotive Electronics, Smart Energy Audit System, ESP32">
+  <meta name="author" content="Naveen Kumar P">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Naveen Kumar P | ECE Engineering Portfolio">
+  <meta property="og:description" content="Electronics and Communication Engineering student portfolio featuring industrial trainee experience at HL Mando and tested ESP32 embedded systems projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Naeen206/naveen-engineering-portfolio">
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Favicon (SVG Data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect width='16' height='16' x='4' y='4' rx='2'/%3E%3Crect width='6' height='6' x='9' y='9' rx='1'/%3E%3Cpath d='M15 2v2'/%3E%3Cpath d='M15 20v2'/%3E%3Cpath d='M2 15h2'/%3E%3Cpath d='M2 9h2'/%3E%3Cpath d='M20 15h2'/%3E%3Cpath d='M20 9h2'/%3E%3Cpath d='M9 2v2'/%3E%3Cpath d='M9 20v2'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- Circuit Background Canvas & Overlay -->
+  <canvas id="circuit-canvas" aria-hidden="true"></canvas>
+  <div class="circuit-grid-overlay" aria-hidden="true"></div>
+
+  <!-- A. Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand" aria-label="Naveen Kumar P Portfolio Home">
+        <div class="brand-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/>
+            <path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/>
+          </svg>
+        </div>
+        <span>Naveen <span class="highlight">Kumar P</span></span>
+      </a>
+
+      <!-- Desktop & Mobile Nav Menu -->
+      <nav id="primary-navigation" aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline btn-sm">Get in Touch</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- B. Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="status-dot"></span>
+              <span>Available for Internships & Placement</span>
+            </div>
+
+            <h1 class="hero-name">NAVEEN KUMAR P</h1>
+            
+            <div class="hero-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+              <span>Electronics and Communication Engineering Student</span>
+            </div>
+
+            <p class="hero-tagline">
+              "Building practical solutions at the intersection of embedded systems, IoT, electronics, and automotive technology."
+            </p>
+
+            <p class="hero-subtext">
+              Third-year undergraduate at SIMATS Engineering (CGPA 8.4/10) with hands-on industrial trainee exposure at HL Mando. Passionate about microcontroller architectures, physical sensor telemetry, and reliable hardware-software interfacing.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary" id="hero-view-projects">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="m9 18 6-6-6-6"/>
+                </svg>
+                View My Projects
+              </a>
+              <a href="assets/docs/Naveen_Kumar_P_Resume.pdf" class="btn btn-secondary" id="hero-resume-btn" download>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/>
+                </svg>
+                Download Resume
+              </a>
+              <a href="#contact" class="btn btn-outline" id="hero-contact-btn">Contact Me</a>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://github.com/Naeen206/naveen-engineering-portfolio" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Naveen Kumar GitHub Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+                <span>GitHub</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/nᴀᴠᴇᴇɴ-kᴜᴍᴀʀ-5120a9373" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Naveen Kumar LinkedIn Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Professional Profile Card -->
+          <div class="hero-visual">
+            <div class="profile-card">
+              <div class="profile-photo-wrapper">
+                <img 
+                  src="assets/images/profile.jpg" 
+                  alt="Naveen Kumar P - Electronics and Communication Engineering Student" 
+                  class="profile-img"
+                  id="profile-img"
+                  onerror="this.style.display='none'; document.getElementById('profile-avatar-fallback').style.display='flex';"
+                  onload="document.getElementById('profile-avatar-fallback').style.display='none';"
+                >
+                <div class="profile-avatar-placeholder" id="profile-avatar-fallback">
+                  <div class="avatar-initials">NK</div>
+                  <div class="avatar-note">ECE Undergraduate • SIMATS</div>
+                </div>
+              </div>
+
+              <div class="profile-meta-list">
+                <div class="meta-row">
+                  <span class="meta-label">Academics</span>
+                  <span class="meta-val">Third Year ECE</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">CGPA</span>
+                  <span class="meta-val highlight">8.4 / 10.0</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Institution</span>
+                  <span class="meta-val">SIMATS Engineering</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Industry Training</span>
+                  <span class="meta-val">HL Mando Trainee</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Location</span>
+                  <span class="meta-val">Chennai, TN, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- C. About Me Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Background & Profile</div>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-desc">Practical electronics engineering background, academic performance, and industrial trainee exposure.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a <strong>third-year Electronics and Communication Engineering student</strong> at <strong>SIMATS Engineering</strong>, Chennai, with a current cumulative CGPA of <strong>8.4/10</strong> (expected graduation in 2028).
+            </p>
+            <p>
+              My technical career interests focus on <strong>Embedded Systems</strong>, <strong>Internet of Things (IoT)</strong>, <strong>Electronics</strong>, <strong>VLSI</strong>, and <strong>Automotive Electronics</strong>. I focus on bridging theoretical circuit and digital design concepts with hands-on microcontroller firmware and sensor integration.
+            </p>
+            <p>
+              During my three-month industrial internship as a <strong>Short-Term Trainee at HL Mando</strong>, I received direct exposure to automotive manufacturing operations on the Power Pack Assembly line, participating in servo motor assembly for automotive steering systems.
+            </p>
+            <p>
+              I have developed and bench-tested an <strong>ESP32-based Smart Energy Audit System</strong> using microwave radar presence detection, and I am currently pursuing professional <strong>Embedded Systems and IoT training through HCLTech</strong> to further refine my low-level development capabilities.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlights-grid">
+              <div class="highlight-card">
+                <div class="highlight-label">Degree & Major</div>
+                <div class="highlight-value">B.E. Electronics & Communication</div>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-label">Academic Merit</div>
+                <div class="highlight-value" style="color:var(--accent-cyan);">CGPA: 8.4 / 10</div>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-label">Institution</div>
+                <div class="highlight-value">SIMATS Engineering, Chennai</div>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-label">Graduation Year</div>
+                <div class="highlight-value">2028 (Third Year)</div>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-label">Industrial Exposure</div>
+                <div class="highlight-value">HL Mando Trainee (3 Mos)</div>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-label">Technical Training</div>
+                <div class="highlight-value">HCLTech (Embedded & IoT)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- D. Technical Skills Section -->
+    <section class="section" id="skills" style="background: rgba(15, 23, 42, 0.45);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Engineering Toolkit</div>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-desc">Practical skills organized by domain without arbitrary percentages or fabricated experience ratings.</p>
+        </div>
+
+        <div class="skills-container" id="skills-container">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- E. Internship Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Industrial Exposure</div>
+          <h2 class="section-title">Internship Experience</h2>
+          <p class="section-desc">Practical manufacturing and assembly line experience in automotive steering applications.</p>
+        </div>
+
+        <div class="timeline" id="experience-timeline">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- F. Featured Project Section -->
+    <section class="section" id="projects" style="background: rgba(15, 23, 42, 0.45);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Engineering Showcase</div>
+          <h2 class="section-title">Featured Project</h2>
+          <p class="section-desc">Hands-on hardware and embedded system designed, wired, and tested.</p>
+        </div>
+
+        <div class="featured-project-card">
+          <div class="project-top-bar">
+            <span class="tag-badge">Embedded Systems & Hardware</span>
+            <span class="project-status-tag">Status: Tested & Verified</span>
+          </div>
+
+          <h3 class="project-title">Smart Energy Audit System Using Microwave Occupancy Detection</h3>
+          <p class="project-subtitle">An ESP32-based engineering project combining microwave occupancy detection with electrical monitoring to explore occupancy-aware energy management.</p>
+          
+          <p class="project-overview-text">
+            This project investigates intelligent energy conservation by measuring electrical parameters (voltage and current) alongside human presence. Unlike standard infrared (PIR) sensors that fail when occupants are stationary, the Doppler microwave sensor provides continuous presence tracking through physical obstructions. The ESP32 processes real-time telemetry and automates test load switching through an optocoupler-isolated relay module.
+          </p>
+
+          <!-- System Flow Illustration -->
+          <div class="flow-diagram-wrapper">
+            <div class="flow-title">
+              <span>System Flow Architecture</span>
+              <span class="flow-disclaimer">*Conceptual Hardware Workflow Tested on Benchtop Prototype</span>
+            </div>
+
+            <div class="flow-steps">
+              <div class="flow-step-card">
+                <div class="flow-step-num">1</div>
+                <div class="flow-step-head">Occupancy Detection</div>
+                <div class="flow-step-detail">RCWL-0516 Doppler radar continuously detects movement and room presence.</div>
+              </div>
+
+              <div class="flow-step-card">
+                <div class="flow-step-num">2</div>
+                <div class="flow-step-head">Central Processing</div>
+                <div class="flow-step-detail">ESP32 microcontroller evaluates presence state and samples transducer signals.</div>
+              </div>
+
+              <div class="flow-step-card">
+                <div class="flow-step-num">3</div>
+                <div class="flow-step-head">Electrical Monitoring</div>
+                <div class="flow-step-detail">ACS712 current and ZMPT101B voltage sensors monitor electrical circuit draw.</div>
+              </div>
+
+              <div class="flow-step-card">
+                <div class="flow-step-num">4</div>
+                <div class="flow-step-head">Load Actuation</div>
+                <div class="flow-step-detail">5V Relay module drives or disconnects the connected LED bulb test load.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Components & Technologies -->
+          <div class="components-section">
+            <h4 class="subhead">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 7h.01"/><path d="M17 7h.01"/><path d="M7 17h.01"/><path d="M17 17h.01"/></svg>
+              Components & Hardware Modules
+            </h4>
+            <div class="components-grid">
+              <div class="component-card">
+                <div class="comp-name">ESP32 Dev Board</div>
+                <div class="comp-role">Microcontroller & Logic Controller</div>
+              </div>
+              <div class="component-card">
+                <div class="comp-name">RCWL-0516 Sensor</div>
+                <div class="comp-role">Microwave Doppler Radar Motion Detector</div>
+              </div>
+              <div class="component-card">
+                <div class="comp-name">ACS712 Sensor</div>
+                <div class="comp-role">Hall-Effect Current Sensing Module</div>
+              </div>
+              <div class="component-card">
+                <div class="comp-name">ZMPT101B Sensor</div>
+                <div class="comp-role">Precision AC Voltage Transformer</div>
+              </div>
+              <div class="component-card">
+                <div class="comp-name">5V Relay Module</div>
+                <div class="comp-role">Optocoupled AC Test Load Actuation</div>
+              </div>
+              <div class="component-card">
+                <div class="comp-name">LED Bulb Test Load</div>
+                <div class="comp-role">AC Electrical Appliance Emulation</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <button class="btn btn-primary" id="open-project-modal-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="16" y2="12"/><line x1="12" x2="12.01" y1="8" y2="8"/>
+              </svg>
+              View Technical Details
+            </button>
+            <a href="https://github.com/Naeen206/naveen-engineering-portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                <path d="M9 18c-4.51 2-5-2-7-2"/>
+              </svg>
+              GitHub Profile & Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+      <div class="modal-window">
+        <button class="modal-close-btn" id="close-project-modal-btn" aria-label="Close project modal">&times;</button>
+        <span class="tag-badge" style="margin-bottom:0.75rem;">Technical Project Overview</span>
+        <h3 id="modal-project-title" style="font-size:1.6rem; margin-bottom:1rem; color:#fff;">Smart Energy Audit System Using Microwave Occupancy Detection</h3>
+        
+        <p style="color:var(--text-secondary); margin-bottom:1.25rem; font-size:0.95rem; line-height:1.7;">
+          <strong>Concept & Motivation:</strong> Energy efficiency in modern commercial and educational environments often suffers from false vacancy indications by conventional passive infrared (PIR) sensors when occupants are typing or sitting still. This system integrates the RCWL-0516 microwave Doppler radar sensor, operating at ~3.18 GHz, which penetrates non-conductive barriers and detects micro-movements accurately.
+        </p>
+
+        <h4 style="font-size:1rem; color:var(--accent-cyan); margin-bottom:0.6rem; font-family:var(--font-mono);">Hardware Testing & Setup:</h4>
+        <ul style="list-style:disc; margin-left:1.5rem; color:var(--text-secondary); font-size:0.925rem; line-height:1.7; margin-bottom:1.5rem;">
+          <li><strong>Microcontroller:</strong> ESP32 executing C/Embedded C firmware to sample analog transducer outputs.</li>
+          <li><strong>Occupancy Sensing:</strong> RCWL-0516 digital output pin interfaced with ESP32 GPIO with debouncing logic.</li>
+          <li><strong>Current & Voltage Telemetry:</strong> ACS712 current transducer and ZMPT101B voltage transformer calibrated to calculate active electrical power.</li>
+          <li><strong>Isolation & Switching:</strong> Optocoupler-isolated relay module connected to safely actuate the 230V AC LED bulb test load.</li>
+        </ul>
+
+        <div style="background:rgba(56, 189, 248, 0.08); border:1px solid rgba(56, 189, 248, 0.2); border-radius:var(--radius-sm); padding:1rem; font-size:0.85rem; color:var(--text-secondary); font-family:var(--font-mono);">
+          <strong>Note:</strong> All circuit telemetry has been verified on benchtop experimental setups. Firmware and test code are maintained in my GitHub repository.
+        </div>
+      </div>
+    </div>
+
+    <!-- G. Certification & Training Section -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Continuous Learning</div>
+          <h2 class="section-title">Certification & Training</h2>
+          <p class="section-desc">Active technical training in embedded systems and IoT engineering.</p>
+        </div>
+
+        <div id="certifications-container">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- H. Resume Section -->
+    <section class="section" id="resume" style="background: rgba(15, 23, 42, 0.45);">
+      <div class="container">
+        <div class="section-header" style="text-align: center;">
+          <div class="section-tag">Curriculum Vitae</div>
+          <h2 class="section-title">Engineering Resume</h2>
+          <p class="section-desc" style="margin: 0 auto;">Download or inspect my formal engineering CV detailing education, projects, and industrial training.</p>
+        </div>
+
+        <div class="resume-card">
+          <div class="resume-icon-circle" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+
+          <h3>Naveen Kumar P — Engineering Resume</h3>
+          <p>
+            Up-to-date document containing academic credentials (CGPA 8.4/10), HL Mando automotive trainee details, technical coursework, and embedded projects.
+          </p>
+
+          <div class="resume-actions">
+            <a href="assets/docs/Naveen_Kumar_P_Resume.pdf" class="btn btn-primary" id="download-resume-btn" download>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/>
+              </svg>
+              Download PDF Resume
+            </a>
+            <a href="assets/docs/Naveen_Kumar_P_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="view-resume-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>
+              </svg>
+              View in Browser
+            </a>
+          </div>
+
+          <div class="resume-meta-note">
+            Target File: <code>assets/docs/Naveen_Kumar_P_Resume.pdf</code>
+          </div>
+
+          <!-- Fallback notification box if PDF is missing -->
+          <div class="resume-status-box" id="resume-status-box"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- I. Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Get In Touch</div>
+          <h2 class="section-title">Contact & Communication</h2>
+          <p class="section-desc">Open for internship opportunities, technical recruitment, and engineering collaborations.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <div class="contact-info-list">
+            
+            <a href="mailto:naveenkumar25102006@gmail.com" class="contact-info-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+              </div>
+              <div class="contact-text-group">
+                <div class="contact-label">Email Address</div>
+                <div class="contact-value">naveenkumar25102006@gmail.com</div>
+              </div>
+            </a>
+
+            <a href="https://github.com/Naeen206/naveen-engineering-portfolio" target="_blank" rel="noopener noreferrer" class="contact-info-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+              </div>
+              <div class="contact-text-group">
+                <div class="contact-label">GitHub Repository</div>
+                <div class="contact-value">github.com/Naeen206/naveen-engineering-portfolio</div>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/nᴀᴠᴇᴇɴ-kᴜᴍᴀʀ-5120a9373" target="_blank" rel="noopener noreferrer" class="contact-info-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>
+                </svg>
+              </div>
+              <div class="contact-text-group">
+                <div class="contact-label">LinkedIn Profile</div>
+                <div class="contact-value">linkedin.com/in/nᴀᴠᴇᴇɴ-kᴜᴍᴀʀ-5120a9373</div>
+              </div>
+            </a>
+
+            <div class="contact-info-card">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div class="contact-text-group">
+                <div class="contact-label">Physical Location</div>
+                <div class="contact-value">Chennai, Tamil Nadu, India</div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-cta-card">
+            <h3>Direct Email Inquiries</h3>
+            <p>
+              I am actively seeking <strong>internships</strong> and <strong>graduate placement opportunities</strong> starting immediately and throughout 2026. For recruitment inquiries, technical interviews, or project discussions, please send a message directly to my inbox.
+            </p>
+
+            <a href="mailto:naveenkumar25102006@gmail.com?subject=Engineering%20Opportunity%20Inquiry%20-%20Naveen%20Kumar%20P" class="btn btn-primary" style="width: 100%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+              Compose Email to Naveen
+            </a>
+
+            <div class="email-direct-box">
+              <div class="email-direct-header">
+                <span>Direct Address</span>
+                <button class="copy-btn" id="copy-email-btn" title="Copy email address">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+              <code style="color:var(--text-primary); font-size:0.875rem;">naveenkumar25102006@gmail.com</code>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- J. Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h4>Naveen Kumar P</h4>
+          <p>Electronics and Communication Engineering Student • SIMATS Engineering</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://github.com/Naeen206/naveen-engineering-portfolio" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/nᴀᴠᴇᴇɴ-kᴜᴍᴀʀ-5120a9373" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+            LinkedIn
+          </a>
+          <a href="mailto:naveenkumar25102006@gmail.com" class="social-link" aria-label="Email Address">
+            Email
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="copyright-year">2026</span> Naveen Kumar P. All rights reserved.
+        </div>
+        <div>
+          Built with semantic HTML, vanilla CSS, and JavaScript.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/circuit-bg.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
